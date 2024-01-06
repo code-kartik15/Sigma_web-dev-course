@@ -1,0 +1,12 @@
+entering ! in html boiler plate template
+
+alt+shift+down it will replicate the currently selected/typing line
+
+use alt for multi line typing
+
+If you want to quickly comment one or more lines of code, you can press Ctrl + K, C.
+
+To uncomment one or more lines of code, press Ctrl + K, U
+
+To use the Snipping Tool when you have a mouse and a keyboard: Press Windows logo key + Shift + S
+
