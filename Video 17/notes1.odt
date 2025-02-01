@@ -1,0 +1,56 @@
+Types of Selector
+
+Element selector: they select entire elements(div , span, p) on which css properties will apply
+        div{
+            /* Element Selector */
+            background-color: burlywood;
+        }
+
+
+Class selector: The value given to class attribute in an html tag can be used as a class selector in CSS
+
+    <div class="gold">
+        This is so gold
+    </div>
+
+then in style tag we do
+
+    .gold{
+        background-color: goldenrod;
+    }
+this .gold mean that which ever class has .gold it means class is gold
+
+ID selector: The value given to id attribute in an html tag can be used as a id selector in CSS
+
+    <div id="green">
+        This is so green
+    </div>
+
+then in style tag we do
+
+    #green{
+        background-color: green;
+    }
+
+Child selector: A certain specified tag has a certain specified child tag then the chlid selector can specify
+css properties of that Element.
+
+<div> <p> This is a child of div </p> </div>
+
+in the style we do:
+
+div > p{
+    color: burlywood
+}
+
+
+
+
+
+
+
+
+
+
+
+/* this is how comments are written in CSS */

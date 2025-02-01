@@ -1,0 +1,14 @@
+            One way of writing CSS is using the style tag
+div {
+    color: red;
+}
+
+here div is selector. We can put multiple selector together by using comma
+color: red; is declaration
+in the above example the color property will only apply to div
+
+div, span {
+    color: red;
+}
+
+now this property applies to both div and span

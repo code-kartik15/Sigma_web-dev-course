@@ -1,0 +1,75 @@
+Fonts:
+
+This is how to define fonts in web browser
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+There are multiple fonts present above as the rest are fallback fonts, they are useful in case the customer's web browser 
+doesnt support the primary font.
+font-style: oblique; // we can use font style to make text italic, oblique etc
+to make font bold we use font weight
+we can also use text-decoration: overline, underline etc;
+https://codepen.io/web-dot-dev/pen/yLojraG => we can use this to check what all font families look like
+https://fonts.google.com => visit this to use google fonts
+there are 2 ways to include fonts from google fonts , through link or through import
+put the @ import url in style and the copy css in usual way
+2nd way is to and link tag to head and remove @import from style tag
+we can add multiple fonts using the import or link tag at once
+If you dont mention font size in code, then the browser autmoatically sets. To see the size value, inspect the 
+element 
+line height tag can be used to have a certain size difference between two lines of a paragraph 
+letter spacing can be used to increase spaces between indivisual letters
+text-transform can be use to perform action like uppercase, lowercase, capitalize
+
+
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-color: aqua;
+            text-decoration-style: wavy;
+            text-decoration-thickness: 7px;
+
+text-indent to indent text some distance ahead from start
+
+
+            text-overflow: ellipsis; 
+            overflow: hidden; 
+
+then the word would appear like lore... before moving to next line 
+ 
+
+            text-overflow: clip;
+            width: 45px;
+
+
+then the word would appear like lore before moving to next line and the entire rest of the word would begin from there
+word-break: break-all; this will now hide the word but break them even if there are cut in next line
+https://codepen.io/web-dot-dev/pen/ZELGraM - this is comprehensive list of colors in css
+ways to represent colors
+        h1{
+            color: red;
+        }
+
+        .hexwala{
+            color: #0BEE0B;
+        }
+        
+        .rbgwala{
+            color: rgb(rgb(111, 33, 33))
+        }
+        
+        this is rbga, here this alpha mean opacity
+
+        .rbgawala{
+            color:rgba(rgba(152, 46, 46, 0.601))
+        }
+
+the a stands for alpha which is like opacity 0 - completely transparent 1- completely opaque
+hsl stands for hue satuation lightness and alpha 
+.hslwala{
+            color:hsl(235, 100%, 50%)
+        }
+
+also there is hsla
+
+

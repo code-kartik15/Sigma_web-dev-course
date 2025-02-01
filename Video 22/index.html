@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* .box{
+            border: 2px solid black;
+            width : 1534px;
+            background-color: aquamarine;
+            box-sizing: border-box;
+        } */
+      .box2 {
+        border: 2px solid black;
+        width: 80vw;
+        margin: auto;
+        height: 10vh;
+        background-color: pink;
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 12px;
+      }
+      .container  {
+        border: 2px solid black;
+        width: 80vw;
+        /* height: 60vh; */
+        min-height: 50vh;
+        margin: 23px auto;
+        background-color: pink;
+        box-sizing: border-box;
+        font-size: 18px;
+      }
+      .container p {
+        font-size: 2em;
+      }
+
+      .containerNew {
+        border: 2px solid black;
+        width: 80vw;
+        height: 15vh;
+        margin: 23px auto;
+        background-color: pink;
+        box-sizing: border-box;
+      }
+
+      .containerNew > div {
+        border: 2px solid red;
+        width: 50%;
+      }
+
+      .containerNew > div > div {
+        font-size: 1.5rem;
+        border: 2px solid red;
+        width: 50%;
+      }
+
+      .mycont {
+        border: 2px solid black;
+        box-sizing: border-box;
+        margin: 23px auto;
+        background-color: red;
+        color: rgb(8, 8, 8);
+        font-size: 22px;
+        width: 80vmax;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div class="box">
+        This is a box
+    </div> -->
+    <div class="box2">This is to show vh and vw</div>
+    <div class="container  ">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+        maiores reiciendis voluptates nemo provident dolor cupiditate a sint
+        deserunt, obcaecati tempore perferendis vitae quas ab! Veniam obcaecati
+        vitae dolorum ratione repudiandae ducimus qui at fugit perspiciatis
+      </p>
+    </div>
+    <div class="containerNew">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          maiores reiciendis voluptates nemo provident dolor cupiditate
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit
+        </div>
+      </div>
+    </div>
+    <div class="mycont">I am another container</div>
+  </body>
+</html>

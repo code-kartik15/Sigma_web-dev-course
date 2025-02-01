@@ -1,0 +1,42 @@
+BOX model notes:
+
+In css all elements are box, div container etc.
+
+css model states content inside padding inside border inside margin
+
+Browser adds margin and padding on its own.
+
+To reset this do this in a universal selector
+
+*{
+    margin:0;
+    padding:0;
+}
+
+we can add multiple classes to an element
+
+for ex: <div class="box box1">
+
+now we can add css properties for box1 and box seperately
+
+in the browser console when you go to elements tab and click on any on element like div etc, see on the left side, 
+where you can change certain properties temporarily under styles. If you go to computed then you can see that elements, width,
+height border etc. 
+
+Margin is outside the element so the background of the element is not retained. (background color will stay in content and 
+padding not in margin)
+
+Due to some DPI factor the size of border you see in computed tab will be different then the one mentioned in code 
+
+To calculate actual width = width + left padding + right padding + left border + right border + left margin + right margin
+actual height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
+
+if we write this property in a css selector -> box-sizing: border-box then this means if we put height:200px
+then 200px = height + top padding + bottom padding + top border + bottom border
+
+Margin collapse: if box 1 has margin as 25 px, and box 2 has margin of 35 px. then the margin between the space between them is 35, because of margin collapse.
+It states if margin of two elements is overlapping then the bigger margin will be applied only once.
+
+
+
+

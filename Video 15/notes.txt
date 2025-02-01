@@ -1,0 +1,10 @@
+3 types of CSS are:
+1. Inline(dont prefer): put in html tag in style attribute <h1 style="color: blueviolet; background-color: aqua;">
+
+2. Internal CSS: Here the CSS is put in style tag of HTML
+    p{
+        color: pink;
+        background-color: brown;
+    }
+
+3. External CSS: Here CSS is put in external file. Prefer this one 
