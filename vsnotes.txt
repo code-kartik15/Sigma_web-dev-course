@@ -1,4 +1,4 @@
-xxxentering ! in html boiler plate template
+xxxentering ! in html boiler plate template 
 
 alt+shift+down it will replicate the currently selected/typing line
 
